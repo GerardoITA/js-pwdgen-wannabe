@@ -7,7 +7,11 @@ let cognome = (prompt("Inserisci il tuo cognome"));
 
 console.log(cognome);
 
-let genpassword = nome + cognome + 21;
+let colore = (prompt("Inserisci il tuo colore preferito"));
+
+console.log(colore);
+
+let genpassword = nome + cognome + colore + 21;
 // output
 
 document.getElementById("password").innerHTML = (genpassword);
